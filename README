@@ -1,0 +1,18 @@
+
+;; For arguement placeholders:
+(setq ensime-ac-enable-argument-placeholders t)
+
+(setq ensime-sem-high-all-faces
+  '(
+    (var . (:foreground "#ff2222"))
+    (val . (:foreground "#dddddd"))
+    (varField . (:foreground "#ff3333"))
+    (valField . (:foreground "#dddddd"))
+    (functionCall . (:foreground "#84BEE3"))
+    (operator . (:foreground "#bbbbbb"))
+    (param . (:foreground "#ffffff"))
+    (class . font-lock-type-face)
+    (trait . (:foreground "#084EA8"))
+    (object . (:foreground "#026DF7"))
+    (package . font-lock-preprocessor-face)
+    ))
